@@ -39,6 +39,7 @@ header{
 .lang-switch {
     background:#F1C40F; 
     border:none;
+    color: #1E5631;
     padding:5px 10px; 
     border-radius:5px;
     cursor:pointer;
@@ -47,6 +48,13 @@ header{
     margin-bottom: -20%;
     margin-top: -20%;
 }
+
+.lang-switch:hover {
+  background:#155126;
+    color: #F1C40F;
+}
+
+
 button {
     background:#1E5631; 
     color:#fff;
@@ -62,8 +70,6 @@ button {
   padding:10px;
   border-radius:12px;
 }
-
-.lang-switch:hover {background:#155126;}
 
 .lien{
     text-decoration: none;
@@ -169,6 +175,10 @@ h2{
   display:flex;
   gap:12px;
   flex-wrap:wrap
+}
+
+#about h2, h3{
+  margin-left: 1%;
 }
 
 #team{
